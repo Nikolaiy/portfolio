@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald|Rambla|Staatliches&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --color-black: #000000;
+    --color-white: #ffffff;
+    --color-border: #ffffff34;
+    --font-staat: 'Staatliches', cursive;
+    --font-os: 'Oswald', sans-serif;
+    --font-ram: 'Rambla', sans-serif;
+}
+
+/* global classes */
+
+.font-staat {
+    font: normal 400 18px var(--font-staat);
+}
+
+.font-os {
+    font: normal 300 18px var(--font-os);
+}
+
+.font-ram {
+    font: normal 700 18px var(--font-ram);
+}
+
+.font-size-40 {
+    font-size: 40px;
+}
+
+.font-size-34 {
+    font-size: 34px;
+}
+
+.font-size-27 {
+    font-size: 27px;
+}
+
+.font-size-20 {
+    font-size: 20px;
+}
+
+.font-size-16 {
+    font-size: 16px;
+}
+
+.bgcolor-black {
+    background-color: var(--color-black);
+}
+
+/* #global classes */
+
+/* start header */
+
+#header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+    transition: left .5s ease;
+}
+
+#header nav {
+    height: 100vh;
+}
+
+#header .site-title .navbar-brand {
+    letter-spacing: 2px;
+    color: var(--color-white);
+}
+
+#header .nav-link {
+    margin: 0.7rem 1rem;
+    border-bottom: 1px solid var(--color-border);
+    text-transform: uppercase;
+}
+
+#header .nav-link:hover {
+    color: var(--color-white)!important; 
+}
+
+#header .toggle-button {
+    background: none;
+    color: var(--color-black);
+    position: fixed;
+    top: 25px;
+    right: 20px;
+    border: 1px solid var(--color-border);
+}
+
+.toggle-left {
+    left: 0 !important;
+    width: 1000px !important;
+}
+
+/* end header */
+
+/* start home */
+
+.home {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+.home-banner {
+    background-image: url(../img/bg.jpg);
+    background-size: cover;
+    height: 100%;
+}
+
+.home-banner_content {
+    position: relative;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.home-images {
+    border-radius: 50%;
+}
+
+.home-title {
+}
+
+.home-desc {
+}
+
+/* end header */
+
+
+.about {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+.section-title {
+    
+}
+.about-card {
+}
+.about-img {
+}
+.about-text {
+}
+.about-title {
+}
+.about-name {
+}
+.about-desc {
+}
+.about-info {
+}
+.about-info-left {
+}
+.about-birthday {
+}
+.about-website {
+}
+.about-phone {
+}
+.about-info-right {
+}
+.about-degree {
+}
+.about-mail {
+}
+.about-twitter {
+}
+.about-btn {
+    background-color: #333;
+}
+
+
