@@ -48,6 +48,10 @@ body {
     font-size: 16px;
 }
 
+.font-size-12 {
+    font-size: 12px;
+}
+
 .bgcolor-black {
     background-color: var(--color-black);
 }
@@ -119,20 +123,16 @@ body {
     top: 45%;
     left: 50%;
     transform: translate(-50%, -50%);
+    text-align: center;
 }
 
-.home-images {
-    border-radius: 50%;
-}
-
-.home-title {
-}
-
-.home-desc {
+.home-images img {
+    height: 150px;
 }
 
 /* end header */
 
+/* start about */
 
 .about {
     width: 100%;
@@ -140,41 +140,5 @@ body {
     position: relative;
 }
 
-.section-title {
-    
-}
-.about-card {
-}
-.about-img {
-}
-.about-text {
-}
-.about-title {
-}
-.about-name {
-}
-.about-desc {
-}
-.about-info {
-}
-.about-info-left {
-}
-.about-birthday {
-}
-.about-website {
-}
-.about-phone {
-}
-.about-info-right {
-}
-.about-degree {
-}
-.about-mail {
-}
-.about-twitter {
-}
-.about-btn {
-    background-color: #333;
-}
 
-
+/* end about */
