@@ -142,3 +142,16 @@ body {
 
 
 /* end about */
+
+/* start media  */
+
+@media screen and (min-width: 768px){
+    .toggle-button{
+        display: none;
+    }
+    #header{
+        z-index:0;
+    }
+}
+
+/* end media  */
