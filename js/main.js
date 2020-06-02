@@ -5,7 +5,6 @@ $(document).ready(function(e){
     var width = $navbar.width();
     toggle_onclick($win, $navbar, width);
 
-    // resize event
     $win.resize(function(){
         toggle_onclick($win, $navbar, width);
     });
@@ -13,7 +12,6 @@ $(document).ready(function(e){
     $toggle.click(function(e){
         $navbar.toggleClass('toggle-left');
     })
-
 });
 
 function toggle_onclick($win, $navbar, width){
@@ -24,3 +22,18 @@ function toggle_onclick($win, $navbar, width){
     }
 }
 
+const anchors = document.querySelectorAll('.nav-link')
+
+for (let anchor of anchors) {
+    anchor.addEventListener("click", function(e) {
+        e.preventDefault()
+
+        const href = anchor.getAttribute("href")
+        console.log(href)
+
+        document.querySelector(href).scrollIntoView({
+            behavior: "smooth",
+            block: "center",
+        })
+    })
+}
